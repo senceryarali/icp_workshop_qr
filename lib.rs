@@ -1,7 +1,3 @@
-#[ic_cdk::query]
-fn greet(name: String) -> String {
-    format!("Hello, {}!", name)
-}
 use candid::{CandidType , Deserialize}; //import ui
 use std::include_bytes; //import bytes
 
